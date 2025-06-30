@@ -1,44 +1,76 @@
-# 🦅 RAVEN  
+# RAVEN  
 **Rocket Avionics & Vehicle Execution Node**  
-*A modular, high-performance flight computing platform for rockets, rovers, and next-gen autonomous vehicles.*  
-Developed by the Avionics Team for IREC 2026 🚀
+_A modular, high-performance flight computing system for launch vehicles, autonomous rovers, and experimental platforms._
 
 ---
 
-## 🔥 Overview
+## Mission Profile
 
-**RAVEN** is a cutting-edge, modular avionics system designed to support student-led aerospace missions across a variety of platforms. Built with a mission-critical mindset, RAVEN delivers real-time telemetry, guidance, command execution, and fault tolerance in the harshest environments — from high-altitude launches to autonomous vehicle deployments.
+**RAVEN** is a student-engineered avionics architecture developed for the 2026 IREC launch campaign. It is designed from the ground up to support modular integration, real-time decision-making, and mission reliability under extreme conditions. The system enables seamless deployment across a range of vehicles—whether rocketing through the stratosphere or navigating off-road terrain.
 
-Developed for the **2026 IREC (Intercollegiate Rocket Engineering Competition)** in New Mexico and field-tested at the **Lone Star Cup**, RAVEN represents the next evolution beyond our prior system, SENTINEL.
-
----
-
-## ⚙️ System Architecture
-
-RAVEN uses a **distributed, modular architecture** to support:
-
-- 🚀 Parallel development & testing  
-- 🔧 Plug-and-play submodules  
-- 🧠 Cross-platform adaptability (rockets, rovers, remote vehicles)  
+Built as a successor to the SENTINEL platform, RAVEN expands beyond traditional rocketry into a universal execution framework for unmanned systems.
 
 ---
 
-## 🌐 Applications
+## Core Objectives
 
-| Platform     | Use Case                                                           |
-|--------------|--------------------------------------------------------------------|
-| **Rocket**   | Flight control, staging logic, telemetry, COTS integration         |
-| **Rover**    | Path planning, environmental monitoring, remote ops               |
-| **UAV / Drone** | Real-time sensor streaming, adaptive flight logic               |
-| **Testbeds** | Hardware-in-the-loop (HIL) simulation or telemetry                 |
+- Deterministic real-time flight operations
+- Modular subsystem development and integration
+- Autonomous data collection and logging
+- Hardened communication across vehicle and ground layers
+- Independent verification and HIL testing of all modules
 
 ---
 
-## 🤝 Team
+## Architecture Overview
 
-**RAVEN** is built by the Avionics Subteam of **Rocket Launchers at UTRGV**.  
-Development led by **Andrew Alvarez**,
+**RAVEN** is structured around a distributed, node-based architecture. Subsystems communicate over an isolated fault-tolerant bus, enabling parallel development and full-system resiliency.
 
+
+
+## Supported Platforms
+
+| Vehicle Class | Application                                                       |
+|---------------|--------------------------------------------------------------------|
+| Rocket        | Flight control, staging, payload telemetry                         |
+| Rover         | Terrain navigation, sensor streaming, autonomous behaviors         |
+| UAV / Drone   | Real-time command routing, dynamic response systems                |
+| HIL Bench     | Software-in-the-loop verification, integration testing             |
+
+---
+
+
+## Milestone Timeline
+
+| Milestone           | Date         |
+|---------------------|--------------|
+| Hardware Prototyping| Oct 2025 |
+| Subsystem Testing   | December 2025|
+| Lone Star Flight    | March 2026   |
+| Final Integration   | May 2026     |
+| IREC Launch         | June 2026    |
+
+---
+
+## Ground Command + Telemetry Support
+
+The RAVEN ecosystem includes a fully programmable ground station interface with:
+
+- Live telemetry dashboard
+- Remote command injection
+- Data export pipeline for post-flight analysis
+- Terminal interface for pre-launch checks and remote arming
+
+---
+
+## Project Lead
+
+Designed and developed by **Andrew Alvarez**,  
+Avionics — Rocket Launchers at UTRGV  
+
+---
+
+ 
 
 
 
